@@ -1,0 +1,14 @@
+app:
+  name: "WWJ_Blog"
+  port: "3000" 
+
+database:
+  host: "localhost"
+  port: "3306"
+  username: "root"
+  password: "Wan05609"
+  name: "my_blog"
+
+jwt:
+  secretkey: "wwj_secret_key"
+  expiration: 86400
